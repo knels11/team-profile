@@ -1,0 +1,23 @@
+{
+  "name": "team-profile",
+  "version": "1.0.0",
+  "description": "generates employee profile",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knels11/team-profile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knels11/team-profile/issues"
+  },
+  "homepage": "https://github.com/knels11/team-profile#readme"
+}
