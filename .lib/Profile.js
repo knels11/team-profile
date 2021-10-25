@@ -1,16 +1,14 @@
 const inquirer = require('inquirer');
 const Employee = require('./Employee');
-const Details = require('./Details');
 
 function Profile() {
     this.employee;
-    this.area;
-    this.experience;
-    this.age;
+    this.role;
 }
 
 Profile.prototype.initializeProfile = function() {
     this.employee.push(new Employee('Sarah', 'frontend'));
+    this.currentEmployee = this.employees[0];
 
     inquirer
     .prompt({
